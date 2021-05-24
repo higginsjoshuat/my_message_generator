@@ -26,10 +26,12 @@ const message = {
         return this.gods[randomNum]; 
     },
     generateEmotion(){
-        return;
+        let randomNum = Math.floor(Math.random() * this.gods.length);
+        return this.emotions[randomNum];
     },
     generateElement(){
-        return;
+        let randomNum = Math.floor(Math.random() * this.gods.length);
+        return this.elements[randomNum];
     },
     generateAction(){
         return;
@@ -40,4 +42,4 @@ const message = {
     
 }
 
-console.log(message.generateGod());
+//console.log(message.generateGod());
