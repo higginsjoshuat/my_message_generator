@@ -22,7 +22,8 @@ const message = {
     },
     // Creating methods for generating pieces of the message.
     generateGod(){
-        return; 
+        let randomNum = Math.floor(Math.random() * this.gods.length);
+        return this.gods[randomNum]; 
     },
     generateEmotion(){
         return;
@@ -38,3 +39,5 @@ const message = {
     }
     
 }
+
+console.log(message.generateGod());
