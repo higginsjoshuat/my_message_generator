@@ -3,9 +3,9 @@
 // Creates our message object.
 const message = {
     // Creating arrays.
-    _gods: [],
-    _emotions: [],
-    _elements: [],
+    _gods: ['Zeus','Athena','Ares','Poseidon','Hades','Dionysus','Demeter','Hermes','Aphrodite'],
+    _emotions: ['angry', 'loving', 'frisky', 'drunk', 'spiteful', 'devious', 'war-bound', 'hyper'],
+    _elements: ['water from the seas', 'lightening from the clouds', 'fire from the Earth\'s core', 'wind from the west'],
     _actions:[],
     // Creating Getter Methods
     get gods() {
