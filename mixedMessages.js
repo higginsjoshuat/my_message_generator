@@ -6,7 +6,24 @@ const message = {
     _gods: ['Zeus','Athena','Ares','Poseidon','Hades','Dionysus','Demeter','Hermes','Aphrodite'],
     _emotions: ['angry', 'loving', 'frisky', 'drunk', 'spiteful', 'devious', 'war-bound', 'hyper'],
     _elements: ['water from the seas', 'lightening from the clouds', 'fire from the Earth\'s core', 'wind from the west'],
-    _actions:[],
+    _actions:[
+        // angry
+        ['sends destructive energy your way!', 'demands blood!', 'says you will pay dearly in the coming days.'],
+        // loving
+        ['','',''],
+        // frisky
+        ['','',''],
+        // drunk
+        ['','',''],
+        // spiteful
+        ['','',''],
+        // devious
+        ['','',''],
+        // war-bound
+        ['','',''],
+        // hyper
+        ['','','']
+    ],
     // Creating Getter Methods
     get gods() {
         return this._gods;
