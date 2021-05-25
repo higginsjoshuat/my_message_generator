@@ -84,13 +84,13 @@ const message = {
         return this._actions[act][randomNum];
     },
     createMessage(){
-        const god = generateGod();
-        const element = generateElement();
-        const emotion = generateEmotion();
-        const action = generateAction(emotion);
+        const god = this.generateGod();
+        const element = this.generateElement();
+        const emotion = this.generateEmotion();
+        const action = this.generateAction(emotion);
         return `${god} is feeling ${emotion}. ${god} conjures ${element} and ${action}`;
     }
     
 }
 
-//console.log(message.generateGod());
+console.log(message.createMessage());
